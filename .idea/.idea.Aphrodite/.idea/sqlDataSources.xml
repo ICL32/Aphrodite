@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="eaffb52d-a2ad-4382-b5d2-1325a1df1021" name="@localhost Mapping">
+      <data-sources db="c69846fd-6179-43a0-a96c-147d44b0af00" ddl="4e56e8a7-6855-427c-a664-36be852a8afe" />
+      <scope>
+        <node kind="database" negative="1">
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="4e56e8a7-6855-427c-a664-36be852a8afe" />
+          <option name="name" value="@localhost (DDL)" />
+          <option name="dbmsName" value="MYSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$USER_HOME$/.nuget/packages/mysql.data.entityframework/8.0.32/contentFiles/any/netstandard2.1/app.config.transform" />
+            </array>
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
