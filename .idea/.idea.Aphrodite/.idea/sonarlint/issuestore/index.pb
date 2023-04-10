@@ -15,11 +15,5 @@ D
 wwwroot/css/site.css,7\e\7e4eebd96fa427e8305291821d40c84fde6735c1
 B
 Pages/Index.cshtml,1\f\1f36f127a569d12eb918e1ac1f919bb4082f7cfb
-K
-Pages/Shared/_Layout.cshtml,a\b\ab292015fafaa37dbf86b64df1230c8024457dd0
 \
 ,wwwroot/lib/bootstrap/dist/css/bootstrap.css,7\d\7dfac830a71e4ec135ba32f997fec88fca2bdc68
-@
-appsettings.json,b\c\bc678f3600cdefd583b88522810b2a538d8ffd6a
-L
-Data/ApplicationDbContext.cs,c\a\cad257c86c6cca50f3cbfe70e2dee0befa57e0c5

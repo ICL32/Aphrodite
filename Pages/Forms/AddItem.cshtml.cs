@@ -20,13 +20,6 @@ namespace Aphrodite.Pages.Forms
             // Convert the uploaded image to a byte array
             if (UploadedImage != null)
             {
-                var allowedContentTypes = new[] { "image/jpeg", "image/jpg" };
-                if (!allowedContentTypes.Contains(UploadedImage.ContentType))
-                {
-                    ModelState.AddModelError("UploadedImage", "Only JPG images are allowed.");
-                    return Page();
-                }
-
                 using (var memoryStream = new MemoryStream())
                 {
                     await UploadedImage.CopyToAsync(memoryStream);
@@ -38,7 +31,7 @@ namespace Aphrodite.Pages.Forms
             {
                 await connection.OpenAsync();
 
-                var query = "INSERT INTO Items (Id, Name, Cost, ImageData) VALUES (@id, @name, @cost, @imageData)";
+                var query = "INSERT INTO aphrodite.items (Id, Name, Cost, ImageData) VALUES (@id, @name, @cost, @imageData)";
                 using (var command = new MySqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@id", Item.Id);
