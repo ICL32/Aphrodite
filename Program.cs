@@ -1,4 +1,3 @@
-using Microsoft.Extensions.Configuration;
 using MySqlConnector;
 
 var builder = WebApplication.CreateBuilder(args);

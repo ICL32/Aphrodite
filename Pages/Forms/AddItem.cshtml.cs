@@ -16,12 +16,6 @@ namespace Aphrodite.Pages.Forms
 
         public async Task<IActionResult> OnPostAsync()
         {
-            // Check the ModelState before setting the ImageData
-            /*if (!ModelState.IsValid)
-            {
-                Console.WriteLine("Not valid");
-                return Page();
-            }*/
 
             // Convert the uploaded image to a byte array
             if (UploadedImage != null)
@@ -39,12 +33,7 @@ namespace Aphrodite.Pages.Forms
                     Item.ImageData = memoryStream.ToArray();
                 }
             }
-            /*else
-            {
-                ModelState.AddModelError("UploadedImage", "The ImageData field is required.");
-                return Page();
-            }*/
-
+            
             using (var connection = new MySqlConnection("server=localhost;database=Aphrodite;uid=Aphrodite;pwd=1234"))
             {
                 await connection.OpenAsync();

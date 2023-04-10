@@ -7,8 +7,6 @@ a
 -Pages/Shared/_ValidationScriptsPartial.cshtml,1\3\1301ee5446ecbaa31452d0ce5949a54e52dde224
 O
 Pages/Shared/_Layout.cshtml.css,7\9\7927bbf4b2090fe9cd8eb3c544b45500f0d950d9
-D
-Pages/Privacy.cshtml,7\f\7f9a890057ea3fdbe99687d6b641181fcdef577a
 B
 Pages/Error.cshtml,8\9\8907a1bfcffbeea491e1f014b7e3d435a190e09c
 G
@@ -23,3 +21,5 @@ K
 ,wwwroot/lib/bootstrap/dist/css/bootstrap.css,7\d\7dfac830a71e4ec135ba32f997fec88fca2bdc68
 @
 appsettings.json,b\c\bc678f3600cdefd583b88522810b2a538d8ffd6a
+L
+Data/ApplicationDbContext.cs,c\a\cad257c86c6cca50f3cbfe70e2dee0befa57e0c5
